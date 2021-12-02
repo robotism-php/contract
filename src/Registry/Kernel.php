@@ -6,5 +6,5 @@ namespace Robotism\Contract\Registry;
 
 interface Kernel
 {
-    public function getComponents():array;
+    public static function getComponents():array;
 }
