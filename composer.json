@@ -1,0 +1,21 @@
+{
+    "name": "robotism-php/contract",
+    "description": "Define the interface and abstract classes",
+    "type": "library",
+    "license": "LGPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Robotism\\Contract\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MuChen",
+            "email": "2387911242@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-json": "*"
+    }
+}
