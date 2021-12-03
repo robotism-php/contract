@@ -10,6 +10,7 @@ interface Application
 {
     public static function create():Application;
     public function at(string $directory):self;
+    public function getAppRoot():string;
     public function withWrapper(Wrapper $wrapper):self;
     public function withKernel(Kernel $kernel):self;
     public function run();
