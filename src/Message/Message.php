@@ -30,7 +30,8 @@ class Message extends Entity
         return $this;
     }
 
-    public function append(MessageItem $item){
+    public function append(MessageItem $item):self{
         array_push($this->items,$item);
+        return $this;
     }
 }
